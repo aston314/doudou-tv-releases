@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 29,
-  "version_name": "0.1.28",
+  "version_code": 30,
+  "version_name": "0.1.29",
   "min_sdk": 23,
-  "size": 24908855,
-  "sha256": "4d2e99a4cc80eedfd7e58977ba6ec8e52fa91c33bf1b0edd5199b62446050e5b",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.28/doudou-tv-0.1.28.apk",
-  "release_notes": "修复视频加载时头像出现引起的视觉跳动。固定头像与转圈的布局区域；已知有头像时立即使用大外圈，图片加载完成后只填入中心，标题和作者位置保持稳定。列表加载、无头像及播放中缓冲继续使用居中的小转圈，图片失败不影响播放。",
-  "published_at": "2026-10-09T08:35:10.531485+00:00"
+  "size": 24914468,
+  "sha256": "5ebb0f5d74c5e12de2e24c28e765c56b31d0165d21a23fbb3d5437c40ffbb46c",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.29/doudou-tv-0.1.29.apk",
+  "release_notes": "推荐播放加入轻量预加载。当前视频成功取得播放地址后，后台串行准备下一条和下下条，切换时直接复用已准备结果；任务有数量和时效上限，快速切换、离开页面或切换账号会取消过时请求。预加载不下载完整视频、不创建第二个播放器，保持 Android 6 播放兼容性。",
+  "published_at": "2026-10-09T13:49:51.450005+00:00"
 }
