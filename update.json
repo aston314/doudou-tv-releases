@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 27,
-  "version_name": "0.1.26",
+  "version_code": 28,
+  "version_name": "0.1.27",
   "min_sdk": 23,
-  "size": 24905213,
-  "sha256": "4054e236fa4849b7d80a3c948fb10e415f924a10e5037e6a46827570fdd8ec3f",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.26/doudou-tv-0.1.26.apk",
-  "release_notes": "直播播放页保留上方绿色“直播中”角标，移除下方重复的文字提示。普通视频的播放时间与进度条正常显示。",
-  "published_at": "2026-10-09T06:33:28.352588+00:00"
+  "size": 24908877,
+  "sha256": "a5587aecd77542645fb0d7a7499942647155048593c7df11c053cf1198f507cb",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.27/doudou-tv-0.1.27.apk",
+  "release_notes": "切换视频时，有作者头像则显示圆形头像与旋转外圈，头像保持静止。读取列表、头像缺失或加载失败时保留普通转圈；播放中的短暂缓冲继续使用透明背景的小转圈。快速切换不会显示上一条视频的头像，头像加载不延长首帧等待。\n\n修正新内置扫码会话的关注、取消关注和作者关注状态查询。点赞与收藏仍需完整的互动凭据，未宣称新扫码自动完成全部互动验证。",
+  "published_at": "2026-10-09T08:03:03.694159+00:00"
 }
