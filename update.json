@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 28,
-  "version_name": "0.1.27",
+  "version_code": 29,
+  "version_name": "0.1.28",
   "min_sdk": 23,
-  "size": 24908877,
-  "sha256": "a5587aecd77542645fb0d7a7499942647155048593c7df11c053cf1198f507cb",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.27/doudou-tv-0.1.27.apk",
-  "release_notes": "切换视频时，有作者头像则显示圆形头像与旋转外圈，头像保持静止。读取列表、头像缺失或加载失败时保留普通转圈；播放中的短暂缓冲继续使用透明背景的小转圈。快速切换不会显示上一条视频的头像，头像加载不延长首帧等待。\n\n修正新内置扫码会话的关注、取消关注和作者关注状态查询。点赞与收藏仍需完整的互动凭据，未宣称新扫码自动完成全部互动验证。",
-  "published_at": "2026-10-09T08:03:03.694159+00:00"
+  "size": 24908855,
+  "sha256": "4d2e99a4cc80eedfd7e58977ba6ec8e52fa91c33bf1b0edd5199b62446050e5b",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.28/doudou-tv-0.1.28.apk",
+  "release_notes": "修复视频加载时头像出现引起的视觉跳动。固定头像与转圈的布局区域；已知有头像时立即使用大外圈，图片加载完成后只填入中心，标题和作者位置保持稳定。列表加载、无头像及播放中缓冲继续使用居中的小转圈，图片失败不影响播放。",
+  "published_at": "2026-10-09T08:35:10.531485+00:00"
 }
