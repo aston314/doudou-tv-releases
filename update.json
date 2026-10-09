@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 26,
-  "version_name": "0.1.25",
+  "version_code": 27,
+  "version_name": "0.1.26",
   "min_sdk": 23,
-  "size": 24905381,
-  "sha256": "c6cb379cdcfb71d98f434c6aec32acb5b1bfd62c1af4ee4ed2ff02acc37b1511",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.25/doudou-tv-0.1.25.apk",
-  "release_notes": "修复首次启动时推荐列表偶发读取失败、重试后才正常的问题。\n\n“我的”页面的登录与互动凭据按钮保持在同一行，适配小屏幕和 Android 6。\n\n启动页的“豆”字新增轻柔的呼吸动画，版本号显示为“版本：0.1.25”。\n\n设置中的检查连接、检查更新增加检查中、完成和失败提示，检查时保留遥控器焦点。",
-  "published_at": "2026-10-09T06:20:00.056012+00:00"
+  "size": 24905213,
+  "sha256": "4054e236fa4849b7d80a3c948fb10e415f924a10e5037e6a46827570fdd8ec3f",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.26/doudou-tv-0.1.26.apk",
+  "release_notes": "直播播放页保留上方绿色“直播中”角标，移除下方重复的文字提示。普通视频的播放时间与进度条正常显示。",
+  "published_at": "2026-10-09T06:33:28.352588+00:00"
 }
