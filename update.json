@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 31,
-  "version_name": "0.1.30",
+  "version_code": 32,
+  "version_name": "0.1.31",
   "min_sdk": 23,
-  "size": 24923160,
-  "sha256": "829f7bc46a6611b96a687ae92d40b66074349c16122783297dfe619068be5835",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.30/doudou-tv-0.1.30.apk",
-  "release_notes": "直播播放控件在弹幕后增加在线人数开关，默认开启并按全局偏好保存。关闭后停止在线人数轮询，重新开启只在清屏播放时恢复显示。\n\n修复直播播放解析结果覆盖列表人数快照的问题。实时接口暂时没有返回人数时，仍显示直播列表已取得的在线人数；直播结束后停止显示并取消刷新。",
-  "published_at": "2026-10-10T07:20:31.436628+00:00"
+  "size": 24934501,
+  "sha256": "7adf1b416e15ed1630496366518e058857bf533daae1f017d9534020f1738aab",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.31/doudou-tv-0.1.31.apk",
+  "release_notes": "直播间商品状态识别\n\n- 从直播间公开状态读取是否存在商品，并在播放控制栏显示购物车入口。\n- 检测到商品时提供直播间二维码提示，使用手机扫码查看商品并完成购买。\n- 商品状态会随直播状态动态刷新；无商品或直播结束后自动隐藏入口。\n- 修复直播公开房间号与内部房间号之间的映射，保证商品状态和直播二维码对应当前房间。",
+  "published_at": "2026-10-10T11:33:24.658452+00:00"
 }
