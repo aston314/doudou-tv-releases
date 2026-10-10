@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 30,
-  "version_name": "0.1.29",
+  "version_code": 31,
+  "version_name": "0.1.30",
   "min_sdk": 23,
-  "size": 24914468,
-  "sha256": "5ebb0f5d74c5e12de2e24c28e765c56b31d0165d21a23fbb3d5437c40ffbb46c",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.29/doudou-tv-0.1.29.apk",
-  "release_notes": "推荐播放加入轻量预加载。当前视频成功取得播放地址后，后台串行准备下一条和下下条，切换时直接复用已准备结果；任务有数量和时效上限，快速切换、离开页面或切换账号会取消过时请求。预加载不下载完整视频、不创建第二个播放器，保持 Android 6 播放兼容性。",
-  "published_at": "2026-10-09T13:49:51.450005+00:00"
+  "size": 24923160,
+  "sha256": "829f7bc46a6611b96a687ae92d40b66074349c16122783297dfe619068be5835",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.30/doudou-tv-0.1.30.apk",
+  "release_notes": "直播播放控件在弹幕后增加在线人数开关，默认开启并按全局偏好保存。关闭后停止在线人数轮询，重新开启只在清屏播放时恢复显示。\n\n修复直播播放解析结果覆盖列表人数快照的问题。实时接口暂时没有返回人数时，仍显示直播列表已取得的在线人数；直播结束后停止显示并取消刷新。",
+  "published_at": "2026-10-10T07:20:31.436628+00:00"
 }
