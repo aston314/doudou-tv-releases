@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 32,
-  "version_name": "0.1.31",
+  "version_code": 33,
+  "version_name": "0.1.32",
   "min_sdk": 23,
-  "size": 24934501,
-  "sha256": "7adf1b416e15ed1630496366518e058857bf533daae1f017d9534020f1738aab",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.31/doudou-tv-0.1.31.apk",
-  "release_notes": "直播间商品状态识别\n\n- 从直播间公开状态读取是否存在商品，并在播放控制栏显示购物车入口。\n- 检测到商品时提供直播间二维码提示，使用手机扫码查看商品并完成购买。\n- 商品状态会随直播状态动态刷新；无商品或直播结束后自动隐藏入口。\n- 修复直播公开房间号与内部房间号之间的映射，保证商品状态和直播二维码对应当前房间。",
-  "published_at": "2026-10-10T11:33:24.658452+00:00"
+  "size": 24936865,
+  "sha256": "48778977cbafabd715f3066ef81fcb7ce235c6bc1b222afd9ae6cb01be92352c",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.32/doudou-tv-0.1.32.apk",
+  "release_notes": "直播播放进入校验\n\n- 进入直播间时强制重新读取房间状态和播放地址，不再使用短期旧播放缓存绕过确认。\n- 只有直播状态为进行中、房间编号匹配且存在确认过的 H.264 地址时才启动播放器。\n- 播放前的直播校验不等待商品页补充，避免商品信息拖慢进入播放；在线人数和商品状态仍按原流程刷新。\n- 弹幕读取保留已验证房间缓存，避免为同一直播间重复发起无意义的校验请求。\n- 修正直播结束或状态异常时仍可能启动旧播放地址的问题。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
+  "published_at": "2026-10-10T16:22:51.573498+00:00"
 }
