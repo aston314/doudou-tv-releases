@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 36,
-  "version_name": "0.1.35",
+  "version_code": 37,
+  "version_name": "0.1.36",
   "min_sdk": 23,
-  "size": 25025871,
-  "sha256": "c4d651fd30ade0ef7c2b5baf139779eb7d5456637ae02a1fb8d9feca45171f13",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.35/doudou-tv-0.1.35.apk",
-  "release_notes": "精选栏目与分类导航\n\n- 精选页接入官方一级分类，支持真实分类切换和独立分页。\n- 公开课接入真实分类树和视频列表，支持三级分类菜单。\n- 分类请求使用对应的红果分类参数，避免切换后仍停留在默认内容。\n- 优化首次进入精选页的加载竞态、重试状态和遥控器上下左右焦点。\n- 增加服务端分类参数校验，拒绝无效分类和不完整的公开课标签。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
-  "published_at": "2026-10-11T07:07:10.407543+00:00"
+  "size": 25031986,
+  "sha256": "0981d43364bfa6dd2b74e7f43f36a275913ff2ca530bb6cba8989e0ad2f44b45",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.36/doudou-tv-0.1.36.apk",
+  "release_notes": "二维码输入与直播侧栏优化\n\n- 为搜索和直播扫码输入提供局域网 PNG 地址，兼容 Android 6 旧版 WebView，并保留内嵌二维码回退。\n- 直播间二维码和商品二维码改为右侧侧栏展示，避免遮挡播放画面。\n- 直播聊天和二维码侧栏统一为 30% 宽度，保持播放器、焦点和收起状态同步。\n- 补充二维码会话失效状态与图片响应测试，提升扫码失败时的恢复能力。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
+  "published_at": "2026-10-11T10:40:03.147807+00:00"
 }
