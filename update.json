@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 34,
-  "version_name": "0.1.33",
+  "version_code": 35,
+  "version_name": "0.1.34",
   "min_sdk": 23,
-  "size": 24984364,
-  "sha256": "8c8f5f884063c4e120853761142082483eb0438a8cc125ad5313fb93392c30d1",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.33/doudou-tv-0.1.33.apk",
-  "release_notes": "直播发言连续发送\n\n- 同一个直播发言二维码会话支持连续提交多条消息。\n- 手机端显示等待发送、发送中、已发送和发送失败状态。\n- 电视端逐条发送，避免快速连续发言互相覆盖。\n- 消息只保留在本次扫码会话中，关闭窗口、二维码过期或重新扫码后清空。\n- 优化直播发言弹窗提示，明确扫码后可连续发送，并提醒保持窗口打开。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
-  "published_at": "2026-10-10T18:34:01.737679+00:00"
+  "size": 24991817,
+  "sha256": "35ab11ef5e6fd78626d212a0d9524aca7673f26f04551d6c5328c75b034ddbb8",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.34/doudou-tv-0.1.34.apk",
+  "release_notes": "直播聊天侧栏视觉优化\n\n- 聊天侧栏宽度调整为屏幕的 33%，为直播画面保留更多空间。\n- 直播观众名称前增加观众 SVG 图标，区分收到的消息和自己发送的消息。\n- 保留当前直播会话最近 100 条消息，界面渲染最近 80 条，方向键可按屏滚动到输入区。\n- 优化 Android 6 旧 WebView 下的间距和侧栏布局。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
+  "published_at": "2026-10-11T02:37:53.239988+00:00"
 }
