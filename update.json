@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 37,
-  "version_name": "0.1.36",
+  "version_code": 38,
+  "version_name": "0.1.37",
   "min_sdk": 23,
-  "size": 25031986,
-  "sha256": "0981d43364bfa6dd2b74e7f43f36a275913ff2ca530bb6cba8989e0ad2f44b45",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.36/doudou-tv-0.1.36.apk",
-  "release_notes": "二维码输入与直播侧栏优化\n\n- 为搜索和直播扫码输入提供局域网 PNG 地址，兼容 Android 6 旧版 WebView，并保留内嵌二维码回退。\n- 直播间二维码和商品二维码改为右侧侧栏展示，避免遮挡播放画面。\n- 直播聊天和二维码侧栏统一为 30% 宽度，保持播放器、焦点和收起状态同步。\n- 补充二维码会话失效状态与图片响应测试，提升扫码失败时的恢复能力。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
-  "published_at": "2026-10-11T10:40:03.147807+00:00"
+  "size": 25040871,
+  "sha256": "8d28fc47abd885ad5ded39bf763aabffae7497e645fa0f54dd233dd015d1f931",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.37/doudou-tv-0.1.37.apk",
+  "release_notes": "修复手机扫码二维码显示\n\n- 搜索扫码和直播发言扫码统一通过主服务的同源 PNG 代理加载二维码。\n- 避免 Android WebView 因 CSP 拦截局域网 HTTP 图片地址。\n- 保留二维码会话过期处理和内嵌图片回退，扫码地址与连续发言逻辑不变。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
+  "published_at": "2026-10-11T11:31:04.048669+00:00"
 }
