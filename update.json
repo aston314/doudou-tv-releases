@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 39,
-  "version_name": "0.1.38",
+  "version_code": 40,
+  "version_name": "0.1.39",
   "min_sdk": 23,
-  "size": 25040528,
-  "sha256": "921c3b2a338fb10d47440d781a6b36f6df752a8c318c8c43c67ea94c8b449a5f",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.38/doudou-tv-0.1.38.apk",
-  "release_notes": "修复 Android 6 扫码二维码显示\n\n- 搜索扫码和直播发言扫码优先使用响应内嵌的 PNG，避免旧 WebView 在图片请求失败时不触发回退。\n- 保留主服务同源 PNG 代理作为备用路径，兼容没有内嵌图片的旧核心响应。\n- 上一条/下一条按钮保持不变。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
-  "published_at": "2026-10-11T11:49:11.141146+00:00"
+  "size": 25039709,
+  "sha256": "ced71e5188129f4e451e49f5e822a89ad3be1f46efd3b1fa545ca531feda35d6",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.39/doudou-tv-0.1.39.apk",
+  "release_notes": "修复搜索与直播聊天扫码二维码在旧版 WebView 中不显示\n\n- 搜索扫码和直播聊天扫码只使用接口内嵌的 PNG，不再把局域网输入地址交给页面图片加载器。\n- 避免 Android 6 WebView 将局域网 HTTP 图片拦截为 CSP 或混合内容错误。\n- 保留一次性会话、二维码有效期、刷新和连续发言逻辑。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
+  "published_at": "2026-10-11T12:55:36.725877+00:00"
 }
