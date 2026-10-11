@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 41,
-  "version_name": "0.1.40",
+  "version_code": 42,
+  "version_name": "0.1.41",
   "min_sdk": 23,
-  "size": 25046724,
-  "sha256": "5b7be57da5f4bdd3edf4f9f905fe995ac7b4bdf0cd6af5df7f664c4853df8d96",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.40/doudou-tv-0.1.40.apk",
-  "release_notes": "修复 Android 6 旧版 WebView 中搜索与直播聊天二维码不显示的问题。\n\n- 搜索扫码和直播聊天扫码统一使用应用同源的二维码代理，避免把手机端局域网地址交给页面图片加载器，消除 CSP 拦截。\n- 保留接口内嵌 PNG，并增加 SVG 兜底；二维码直接显示，不等待旧 WebView 可能缺失的 `onload` 事件。\n- 二维码会话、有效期、刷新、连续直播发言和返回焦点逻辑保持不变。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
-  "published_at": "2026-10-11T14:12:43.843102+00:00"
+  "size": 25044167,
+  "sha256": "857cee32c459be883ad9c255ff8d2fab1e434e4526d552711a70aee65e20f649",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.41/doudou-tv-0.1.41.apk",
+  "release_notes": "修复 Android 6 旧版 WebView 中搜索与直播聊天二维码不显示的问题。\n\n- 搜索扫码和直播聊天扫码统一采用红果同样的直接内嵌 PNG 渲染路径。\n- 图片先切换为可见，再赋值 `data:image/png;base64,...`，不再依赖同源代理、SVG 回退或 `onerror` 回调。\n- 保留二维码会话、有效期、刷新、连续直播发言和返回焦点逻辑。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和记录。",
+  "published_at": "2026-10-11T15:01:39.076032+00:00"
 }
