@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 43,
-  "version_name": "0.1.42",
+  "version_code": 44,
+  "version_name": "0.1.43",
   "min_sdk": 23,
-  "size": 25051045,
-  "sha256": "5b148f5712abbabec6ef28ead38d59899ea3bed5a2028e62159d3ed86914263b",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.42/doudou-tv-0.1.42.apk",
-  "release_notes": "修复 Android 6 旧版 WebView 中搜索和直播聊天二维码显示不稳定的问题。\n\n- 二维码矩阵保留 go-qrcode 自带的四模块 quiet zone。\n- Canvas 使用整数模块尺寸和固定像素大小，避免旧 WebView 二次缩放造成空白、缝隙或变形。\n- Canvas 在绘制前先进入可见状态，无法使用 Canvas 时回退到内嵌 PNG，并保持二维码刷新、过期和连续发言会话不变。\n- 搜索扫码与直播聊天扫码共用同一套兼容逻辑和焦点恢复规则。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和本地记录。",
-  "published_at": "2026-10-11T16:07:34.156292+00:00"
+  "size": 25055452,
+  "sha256": "32c90b9cc6fcde9a4571915a518c659d75fa182ae5558577a8cc2664507e455d",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.43/doudou-tv-0.1.43.apk",
+  "release_notes": "修复 Android 6 旧版 WebView 中搜索和直播聊天二维码被 CSP 拦截、无法显示的问题。\n\n- 搜索扫码和直播聊天扫码统一优先使用内联 SVG 矩阵绘制。\n- SVG 不可用时回退到 Canvas，再回退到内嵌 PNG data URI。\n- 局域网手机页面地址只用于手机端，不再写入电视 WebView 的图片地址。\n- 增加二维码渲染来源和 UI/Core 版本诊断，便于确认安装包是否为最新版本。\n- 保留二维码过期、刷新、连续发言和遥控焦点恢复逻辑。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和本地记录。",
+  "published_at": "2026-10-11T23:28:47.541625+00:00"
 }
