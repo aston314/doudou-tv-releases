@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 44,
-  "version_name": "0.1.43",
+  "version_code": 45,
+  "version_name": "0.1.44",
   "min_sdk": 23,
-  "size": 25055452,
-  "sha256": "32c90b9cc6fcde9a4571915a518c659d75fa182ae5558577a8cc2664507e455d",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.43/doudou-tv-0.1.43.apk",
-  "release_notes": "修复 Android 6 旧版 WebView 中搜索和直播聊天二维码被 CSP 拦截、无法显示的问题。\n\n- 搜索扫码和直播聊天扫码统一优先使用内联 SVG 矩阵绘制。\n- SVG 不可用时回退到 Canvas，再回退到内嵌 PNG data URI。\n- 局域网手机页面地址只用于手机端，不再写入电视 WebView 的图片地址。\n- 增加二维码渲染来源和 UI/Core 版本诊断，便于确认安装包是否为最新版本。\n- 保留二维码过期、刷新、连续发言和遥控焦点恢复逻辑。\n\n最低 Android 6。正式包沿用原包名与签名，可覆盖旧正式版并保留账号和本地记录。",
-  "published_at": "2026-10-11T23:28:47.541625+00:00"
+  "size": 25045399,
+  "sha256": "0f0d28c8bcdb6f988a18dbc89c3d0f5a4878500721a27ab8a861ec3269459f18",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.44/doudou-tv-0.1.44.apk",
+  "release_notes": "搜索扫码与直播聊天扫码改为和红果相同的内嵌 PNG 显示方式，供 Android TV 实机验证。\n\n- Go 统一生成 PNG，电视页面使用有明确尺寸的普通图片显示。\n- 移除 SVG 和 Canvas 二维码分支，不再使用局域网 HTTP 地址加载二维码图片。\n- 保留刷新、过期、连续聊天与遥控焦点恢复。\n- 局域网地址优先按当前网络路由选择。\n\n最低 Android 6。沿用正式包名与签名，可覆盖旧正式版并保留账号和本地记录。本版已完成构建与包内容检查，Android 6 实体电视的二维码显示需安装后确认。",
+  "published_at": "2026-10-12T04:42:09.129151+00:00"
 }
