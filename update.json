@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.doudoutv",
-  "version_code": 45,
-  "version_name": "0.1.44",
+  "version_code": 46,
+  "version_name": "0.1.45",
   "min_sdk": 23,
-  "size": 25045399,
-  "sha256": "0f0d28c8bcdb6f988a18dbc89c3d0f5a4878500721a27ab8a861ec3269459f18",
-  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.44/doudou-tv-0.1.44.apk",
-  "release_notes": "搜索扫码与直播聊天扫码改为和红果相同的内嵌 PNG 显示方式，供 Android TV 实机验证。\n\n- Go 统一生成 PNG，电视页面使用有明确尺寸的普通图片显示。\n- 移除 SVG 和 Canvas 二维码分支，不再使用局域网 HTTP 地址加载二维码图片。\n- 保留刷新、过期、连续聊天与遥控焦点恢复。\n- 局域网地址优先按当前网络路由选择。\n\n最低 Android 6。沿用正式包名与签名，可覆盖旧正式版并保留账号和本地记录。本版已完成构建与包内容检查，Android 6 实体电视的二维码显示需安装后确认。",
-  "published_at": "2026-10-12T04:42:09.129151+00:00"
+  "size": 25053739,
+  "sha256": "10206a0ba37e25e9e8b2554e5d393a07344f279ff24890441be3013e73ff395c",
+  "download_url": "https://github.com/aston314/doudou-tv-releases/releases/download/v0.1.45/doudou-tv-0.1.45.apk",
+  "release_notes": "播放控制栏在弹幕按钮后新增“播放诊断”入口，遇到无声、黑屏或播放异常时，可直接查看设备与音视频信息。\n\n- 诊断面板显示盒子型号、Android 版本、屏幕尺寸、已连接的 HDMI/SPDIF 等输出设备、系统音量和静音状态。\n- 显示播放器输出策略、播放器音量、音轨选择、音视频格式与解码器、首帧和错误信息；无法取得的数据明确标注。\n- 支持遥控器上下滚动、刷新与关闭；刷新保留阅读位置，关闭恢复原焦点。打开诊断不暂停视频、不调整音量。\n- 设置页复用同一份诊断内容；切换视频和离开播放页会收起诊断。\n\n最低 Android 6。沿用正式包名与签名，可覆盖旧正式版并保留账号和本地记录。设备连接列表不等同于实际音频输出路线；实体盒子的音频表现仍需结合诊断实测。",
+  "published_at": "2026-10-13T11:59:29.022546+00:00"
 }
